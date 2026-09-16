@@ -3,21 +3,19 @@
 > **Pre-Public-Playable Combat Snapshot**  
 > `슬라임은 먹고싶어`의 실제 전투 구현과 개발 의도를 기록하는 포트폴리오 페이지입니다.
 
-> [▶ 영상 쇼케이스에서 바로 재생하기](https://jeon950523.github.io/slime-combat-showcase/)
-
 이 저장소는 Unity 프로젝트 소스를 복제하지 않습니다. 완성 전 단계에서 무엇을 만들고 있으며, 어떤 전투 경험을 목표로 하는지와 실제 화면을 간결하게 보여 주기 위한 별도의 소개 공간입니다.
 
 ## Combat Preview — 게이트 원정 전투 HUD
 
-**OBS 원본 · Unity Play Mode Game View · 1920×1080 · 7초 · YouTube**
+**README 자동 재생 GIF · Unity Play Mode Game View · 960×540 · 5초**
 
-[![R1 게이트 원정 전투 프로토타입 YouTube 썸네일](https://i.ytimg.com/vi/Tmf7tz7CnCc/hqdefault.jpg)](https://youtu.be/Tmf7tz7CnCc)
+![R1 게이트 원정 전투 — 적 유입과 기본 공격](assets/gifs/r1-gate-combat.gif)
 
 [▶ YouTube에서 1080p 전투 시작·공격 영상 재생](https://youtu.be/Tmf7tz7CnCc)
 
 R1 게이트 원정의 실제 플레이 모드 화면입니다. 슬라임의 체력·공격 반경, 게이트 체력, 남은 시간, 포식 진행도, 마스터리 패널을 유지한 채 적 접근·투사체·처치 상태가 함께 읽히는 구간을 담았습니다. Unity Editor·Console·Inspector는 포함하지 않았습니다.
 
-OBS로 녹화한 1080p 원본 MP4입니다. GIF의 색상 제한이나 축소 인코딩을 거치지 않아, 적 이동·공격·피격 수치·처치 상태·남은 시간이 실제 플레이 해상도와 프레임 흐름으로 보입니다. 연출용 콘셉트 영상이나 완성 트레일러가 아니라, 현재 구현이 어떤 화면과 루프로 동작하는지를 보여 주기 위한 런타임 증거입니다.
+GIF는 저장소 첫 화면에서 바로 반복 재생되는 5초 요약본입니다. 색상·해상도·사운드가 필요한 경우 위의 YouTube 1080p 원본을 확인할 수 있습니다. 연출용 콘셉트 영상이나 완성 트레일러가 아니라, 현재 구현이 어떤 화면과 루프로 동작하는지를 보여 주기 위한 런타임 증거입니다.
 
 ```text
 전투 진입 → 슬라임 기본 공격 → 적 공격 또는 피격 반응 → 적 처치·흡수
@@ -27,15 +25,15 @@ OBS로 녹화한 1080p 원본 MP4입니다. GIF의 색상 제한이나 축소 �
 
 ## 플레이 흐름 — 포식 → 변이 카드 선택
 
-**OBS 원본 · Unity Play Mode Game View · 1920×1080 · 9초 · YouTube**
+**README 자동 재생 GIF · Unity Play Mode Game View · 960×540 · 5초**
 
-[![포식과 변이 카드 선택 프로토타입 YouTube 썸네일](https://i.ytimg.com/vi/WvLsNuvcW0s/hqdefault.jpg)](https://youtu.be/WvLsNuvcW0s)
+![포식 후 변이 카드 선택, 전투 복귀](assets/gifs/devour-mutation.gif)
 
 [▶ YouTube에서 1080p 포식·변이 카드 선택 영상 재생](https://youtu.be/WvLsNuvcW0s)
 
 같은 R1 원정에서 포식이 진행되고 변이 카드 선택이 열리는 실제 플레이 녹화입니다. 카드를 골라 적용되는 결과까지 한 클립으로 확인할 수 있습니다.
 
-포식 처리와 카드 선택은 실제 게임 시스템과 실제 선택 UI를 통해 발생합니다. 아직 장시간 무편집 플레이 영상은 아니며, 현재 공개본은 그 핵심 루프를 짧게 확인하기 위한 1080p 원본 녹화입니다.
+포식 처리와 카드 선택은 실제 게임 시스템과 실제 선택 UI를 통해 발생합니다. GIF는 포식 후 카드 선택이 열리고, 선택 뒤 전투로 돌아오는 흐름을 한 번에 보이도록 잘라낸 5초 루프입니다. 아직 장시간 무편집 플레이 영상은 아니며, 위 링크는 핵심 루프를 더 선명하게 확인하기 위한 1080p 원본 녹화입니다.
 
 ## 이 프로젝트가 향하는 곳
 
@@ -93,7 +91,7 @@ OBS로 녹화한 1080p 원본 MP4입니다. GIF의 색상 제한이나 축소 �
 | --- | --- |
 | 목적 | 완성 전 실제 구현 과정을 보여 주는 Combat Snapshot |
 | 현재 원본 녹화본 | 1920×1080, 16:9, 전투 7초 + 포식·카드 9초 MP4 |
-| README 영상 | GIF 재인코딩 없이 1080p YouTube 영상 두 편으로 연결 |
+| README 영상 | 960×540 · 18fps · 5초 자동 반복 GIF 두 편 + 1080p YouTube 원본 링크 |
 | 장면 | 슬라임과 적 2~4마리가 한 화면에 있고, 공격·피격 또는 처치·흡수가 읽히는 구간 |
 | 화면 구성 | 실제 HUD는 유지하고, Unity Editor·Console·Inspector·디버그 표시는 제외 |
 | 금지 | 현재 진행 중인 World/Map 작업을 완성본처럼 보이게 과장하지 않기 |
