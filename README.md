@@ -7,9 +7,11 @@
 
 ## Combat Preview — 게이트 원정 전투 HUD
 
-**OBS 원본 · Unity Play Mode Game View · 1920×1080 · 7초 · MP4**
+**OBS 원본 · Unity Play Mode Game View · 1920×1080 · 7초 · YouTube**
 
-[▶ 1080p 전투 시작·공격 영상 재생](https://github.com/jeon950523/slime-combat-showcase/raw/refs/heads/main/assets/videos/slime-combat-attack-1080p.mp4)
+[![R1 게이트 원정 전투 프로토타입 YouTube 썸네일](https://i.ytimg.com/vi/Tmf7tz7CnCc/hqdefault.jpg)](https://youtu.be/Tmf7tz7CnCc)
+
+[▶ YouTube에서 1080p 전투 시작·공격 영상 재생](https://youtu.be/Tmf7tz7CnCc)
 
 R1 게이트 원정의 실제 플레이 모드 화면입니다. 슬라임의 체력·공격 반경, 게이트 체력, 남은 시간, 포식 진행도, 마스터리 패널을 유지한 채 적 접근·투사체·처치 상태가 함께 읽히는 구간을 담았습니다. Unity Editor·Console·Inspector는 포함하지 않았습니다.
 
@@ -23,9 +25,11 @@ OBS로 녹화한 1080p 원본 MP4입니다. GIF의 색상 제한이나 축소 �
 
 ## 플레이 흐름 — 포식 → 변이 카드 선택
 
-**OBS 원본 · Unity Play Mode Game View · 1920×1080 · 9초 · MP4**
+**OBS 원본 · Unity Play Mode Game View · 1920×1080 · 9초 · YouTube**
 
-[▶ 1080p 포식·변이 카드 선택 영상 재생](https://github.com/jeon950523/slime-combat-showcase/raw/refs/heads/main/assets/videos/slime-absorb-levelup-1080p.mp4)
+[![포식과 변이 카드 선택 프로토타입 YouTube 썸네일](https://i.ytimg.com/vi/WvLsNuvcW0s/hqdefault.jpg)](https://youtu.be/WvLsNuvcW0s)
+
+[▶ YouTube에서 1080p 포식·변이 카드 선택 영상 재생](https://youtu.be/WvLsNuvcW0s)
 
 같은 R1 원정에서 포식이 진행되고 변이 카드 선택이 열리는 실제 플레이 녹화입니다. 카드를 골라 적용되는 결과까지 한 클립으로 확인할 수 있습니다.
 
@@ -87,7 +91,7 @@ OBS로 녹화한 1080p 원본 MP4입니다. GIF의 색상 제한이나 축소 �
 | --- | --- |
 | 목적 | 완성 전 실제 구현 과정을 보여 주는 Combat Snapshot |
 | 현재 원본 녹화본 | 1920×1080, 16:9, 전투 7초 + 포식·카드 9초 MP4 |
-| README 영상 | GIF 재인코딩 없이 1080p MP4 두 편으로 연결 |
+| README 영상 | GIF 재인코딩 없이 1080p YouTube 영상 두 편으로 연결 |
 | 장면 | 슬라임과 적 2~4마리가 한 화면에 있고, 공격·피격 또는 처치·흡수가 읽히는 구간 |
 | 화면 구성 | 실제 HUD는 유지하고, Unity Editor·Console·Inspector·디버그 표시는 제외 |
 | 금지 | 현재 진행 중인 World/Map 작업을 완성본처럼 보이게 과장하지 않기 |
