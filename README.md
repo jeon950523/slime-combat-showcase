@@ -74,7 +74,7 @@
 | 항목 | 기준 |
 | --- | --- |
 | 목적 | 완성 전 실제 구현 과정을 보여 주는 Combat Snapshot |
-| 원본 | 1920×1080, 16:9, 10~15초 MP4 |
+| 다음 원본 녹화본 | 1920×1080, 16:9, 10~15초 MP4 |
 | README 미리보기 | 3~4초, 960×540 또는 1280×720 GIF |
 | 장면 | 슬라임과 적 2~4마리가 한 화면에 있고, 공격·피격 또는 처치·흡수가 읽히는 구간 |
 | 화면 구성 | 실제 HUD는 유지하고, Unity Editor·Console·Inspector·디버그 표시는 제외 |
@@ -101,7 +101,7 @@ CombatArena
 
 ## 다음 공개 업데이트
 
-1. 실제 전투 원본 MP4와 README용 GIF 추가
+1. Unity Editor·Console·Inspector 표기 없는 전투 원본 MP4 추가 및 README GIF 교체
 2. World / Map Background 진행 장면과 전투 공간의 시각 방향 기록
 3. WebGL Play Now 링크 추가
 4. 빌드가 준비되면 Release와 itch.io 배포 링크 연결
