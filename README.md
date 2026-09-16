@@ -3,6 +3,8 @@
 > **Pre-Public-Playable Combat Snapshot**  
 > `슬라임은 먹고싶어`의 실제 전투 구현과 개발 의도를 기록하는 포트폴리오 페이지입니다.
 
+> [▶ 영상 쇼케이스에서 바로 재생하기](https://jeon950523.github.io/slime-combat-showcase/)
+
 이 저장소는 Unity 프로젝트 소스를 복제하지 않습니다. 완성 전 단계에서 무엇을 만들고 있으며, 어떤 전투 경험을 목표로 하는지와 실제 화면을 간결하게 보여 주기 위한 별도의 소개 공간입니다.
 
 ## Combat Preview — 게이트 원정 전투 HUD
