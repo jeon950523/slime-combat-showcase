@@ -9,7 +9,7 @@
 
 **OBS 원본 · Unity Play Mode Game View · 1920×1080 · 7초 · MP4**
 
-[▶ 1080p 전투 시작·공격 영상 보기](assets/videos/slime-combat-attack-1080p.mp4)
+[▶ 1080p 전투 시작·공격 영상 재생](https://github.com/jeon950523/slime-combat-showcase/raw/refs/heads/main/assets/videos/slime-combat-attack-1080p.mp4)
 
 R1 게이트 원정의 실제 플레이 모드 화면입니다. 슬라임의 체력·공격 반경, 게이트 체력, 남은 시간, 포식 진행도, 마스터리 패널을 유지한 채 적 접근·투사체·처치 상태가 함께 읽히는 구간을 담았습니다. Unity Editor·Console·Inspector는 포함하지 않았습니다.
 
@@ -25,7 +25,7 @@ OBS로 녹화한 1080p 원본 MP4입니다. GIF의 색상 제한이나 축소 �
 
 **OBS 원본 · Unity Play Mode Game View · 1920×1080 · 9초 · MP4**
 
-[▶ 1080p 포식·변이 카드 선택 영상 보기](assets/videos/slime-absorb-levelup-1080p.mp4)
+[▶ 1080p 포식·변이 카드 선택 영상 재생](https://github.com/jeon950523/slime-combat-showcase/raw/refs/heads/main/assets/videos/slime-absorb-levelup-1080p.mp4)
 
 같은 R1 원정에서 포식이 진행되고 변이 카드 선택이 열리는 실제 플레이 녹화입니다. 카드를 골라 적용되는 결과까지 한 클립으로 확인할 수 있습니다.
 
