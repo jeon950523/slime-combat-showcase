@@ -5,19 +5,13 @@
 
 이 저장소는 Unity 프로젝트 소스를 복제하지 않습니다. 완성 전 단계에서 무엇을 만들고 있으며, 어떤 전투 경험을 목표로 하는지와 실제 화면을 간결하게 보여 주기 위한 별도의 소개 공간입니다.
 
-<!--
-COMBAT PREVIEW INSERTION POINT
+## Combat Preview — 근접 적 공격 리듬
 
-녹화본이 준비되면 아래 한 줄을 실제 GIF 파일 경로로 교체합니다.
-![Combat preview](assets/slime-combat-preview.gif)
+![슬라임과 근접 적의 실제 전투 Game View](assets/slime-combat-snapshot.gif)
 
-권장 원본: 1920x1080 MP4, 10~15초
-README용: 960x540 또는 1280x720, 3~4초, 12~15fps GIF
--->
+**실제 Unity Game View 캡처 · 960×540 · 3.5초**
 
-## Combat Preview — 준비 중
-
-첫 공개 클립은 약 3~4초의 실제 인게임 전투 장면입니다.
+슬라임과 근접 적이 같은 전투 반경 안에서 마주치고, 적의 짧은 공격 동작과 플레이어의 전투 상태가 한 화면에서 읽히는 구간입니다. 영상은 편집된 콘셉트 영상이 아니라, 구현을 검증하던 실제 런타임 장면입니다. 상단의 `DeathSlamBrute | Game View` 표기는 이 캡처의 테스트 시나리오 식별 라벨이며, 게임 HUD나 Unity Editor 화면은 아닙니다.
 
 ```text
 전투 진입 → 슬라임 기본 공격 → 적 공격 또는 피격 반응 → 적 처치·흡수
